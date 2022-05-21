@@ -63,9 +63,9 @@ main .text-section{
 }
 main .text-section .box1{
     width:20%;
-    /* height: 300px; */
     justify-content: center;
     margin: 40px;
+    margin-left: 50px;
 }
 .box1h{
     color: #c15355;
@@ -81,12 +81,13 @@ main .text-section .box1{
     padding: 10px 20px;
     border-radius: 5px;
 }
-.box1 i{
+.boxi i{
+    width: fit-content;
     border: 1px solid red;
     padding: 10px;
     border-radius: 50%;
-    margin-top: 100px;
-    float: right;
+    position: fixed;
+    right: 100px;
 }
 .intro{
     width: 100%;
